@@ -1,5 +1,5 @@
 
-define(function() {
+define(['area'], function (Area) {
 
     var Entity = Class.extend({
         init: function(id, kind) {
